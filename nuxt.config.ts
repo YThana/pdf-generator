@@ -6,6 +6,11 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   modules: ['@nuxt/eslint', '@nuxt/ui'],
+  css: ['~/assets/css/main.css'],
+  ui: {
+    fonts: false,
+    colorMode: false
+  },
   components: [
     {
       path: '~/components',

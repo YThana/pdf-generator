@@ -5,12 +5,8 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/ui'],
+  modules: ['@nuxt/eslint'],
   css: ['~/assets/css/main.css'],
-  ui: {
-    fonts: false,
-    colorMode: false
-  },
   components: [
     {
       path: '~/components',
